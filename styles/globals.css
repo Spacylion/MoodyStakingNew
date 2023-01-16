@@ -1,0 +1,97 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+.animation {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  background: url(/images/hero/bg.png);
+  background-size: cover;
+
+  animation: infinite 35s linear infinite;
+}
+.vault {
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  position: absolute;
+  background: url(/images/hero/back2.png);
+  background-size: cover;
+
+  animation: infinite1 35s linear infinite;
+}
+
+.mintsection {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  background: url(/images/hero/bg1231.png);
+  background-size: cover;
+
+  animation: infinite1 32s linear infinite;
+}
+
+@keyframes infinite1 {
+  0% {
+    background-position: 0 0;
+  }
+  25% {
+    background-position: 50% 0;
+  }
+  75% {
+    background-position: 100% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+@keyframes infinite {
+  0% {
+    background-position: 50% 0;
+  }
+
+  100% {
+    background-position: 50% 1000px;
+  }
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  background: #4c4c4c;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+:root {
+  --black: #1c1e21;
+  --white: #ffffff;
+  --tw-color1: #a855f7;
+  --tw-color1-hover: #9333ea;
+}
+
+h2 {
+  font-size: 3rem;
+}

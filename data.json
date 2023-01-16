@@ -1,0 +1,86 @@
+{
+  "headerData": {
+    "logoImgV1": "/images/header/logoV1.png",
+    "logoImgV2": "/images/header/logoV2.png",
+    "btnText": "Contract"
+  },
+
+  "navData": [
+    { "name": "About", "href": "#about" },
+    { "name": "How to", "href": "#how" },
+    { "name": "Faqs", "href": "#faq" }
+  ],
+
+  "heroData": {
+    "title": "Welcome to Moody Cats Club.",
+    "sceneImg": "/images/hero/scene.svg",
+    "boyImg": "/images/hero/boy.png",
+    "girlImg": "/images/hero/girl.svg",
+    "truckImg": "/images/hero/truck.png",
+    "btnText": "OpenSea"
+  },
+
+  "aboutData": {
+    "title": "About Moody Cats Club",
+    "subtitle": "CrazyCats NFT is an OpenSea collection of cat collectibles based on the ETH block chain. We are now having big plans with drop 2 dropping some time during January. We are creating a brand new website as well as a discord were our community will grow bigger and bigger. CrazyCats NFT to the Moon     this?     but change crazy tp moody ?",
+    "text": "STAKING COMING SOON",
+    "boyImg": "/images/about/boy.png"
+  },
+
+  "howData": {
+    "title": "How to apply",
+    "subtitle": "When applying for a traffic permit, there are certain requirements that you must meet that are included in the examination: requirements for professional knowledge, solid establishment, good reputation and financial resources. Important to remember is to confirm your application for a traffic permit by the company's company signer or CEO.",
+    "girlImg": "/images/how/girl.svg"
+  },
+
+  "faqData": {
+    "pretitle": "FAQ",
+    "title": "Join your frens on twitter @MoodyCatsNFT",
+    "boyImg": "/images/faq/boy.png",
+    "accordions": [
+      {
+        "question": "How much does it cost?",
+        "answer": "first 2000 NFTs are 0.003 ETH per NFT. 2001-5000 - 0.005 and final round 5001-10000 - 0.0069"
+      },
+      {
+        "question": "Where are can find my Moody Cats?",
+        "answer": "YOu can see on official OpenSea (check informational page)"
+      },
+      {
+        "question": "Reveal soon?",
+        "answer": "We will reveal once you minted your NFT. So you can update your PFP or drop on Twitter with #MOODY so we will hype you up!"
+      },
+      {
+        "question": "WTF is staking? Why i need this?",
+        "answer": "First of all you can stake for free to  get reward $FISH tokens. What you can do with this tokens and will there be ETH pair - let it be our little secret ;-)"
+      },
+      {
+        "question": "I minted, what i should do?",
+        "answer": "Write #MOODY on your twitter and we will find you out!"
+      },
+      {
+        "question": "W-e-e-e-e-e-e-e-e-n?",
+        "answer": "ASAP!"
+      }
+    ]
+  },
+
+  "footerData": {
+    "truckImg": "/images/footer/truck.png",
+    "hillImg": "/images/footer/hill.svg",
+    "text": "We love what we do!",
+    "logo": "/images/footer/logo.png",
+    "links": [
+      { "name": "about", "href": "/#about" },
+      { "name": "how to", "href": "/#how" },
+      { "name": "faqs", "href": "/#faq" }
+    ],
+    "form": {
+      "labelName": "Ticket: $MOODY",
+
+      "labelEmail": "The Moody Cats Club",
+
+      "btnText": "Go to Staking Page"
+    }
+  }
+}
